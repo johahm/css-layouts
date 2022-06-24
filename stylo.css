@@ -7,12 +7,12 @@ body {
         "aside main main"
         "footer footer footer";
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto 100vh auto;
+    grid-template-rows: auto 78vh auto;
 }
 
 .o-header, .o-aside, .o-main, .o-footer {
-    background: #BC20E2;
-    color: #FDFDFD;
+    background: #521861;
+    color: #7b9b6f;
 }
 
 .o-header {
