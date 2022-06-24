@@ -5,7 +5,7 @@ body {
     grid-template-areas: 
         "header header header"
         "aside main main"
-        "footer footer footer";
+        "footer footer footer"; 
     grid-template-columns: auto auto auto;
     grid-template-rows: auto 78vh auto;
 }
@@ -29,3 +29,6 @@ body {
     grid-area: footer;
     padding: 1rem;
 }
+
+/*El header y footer se declararon tres veces, porque estamos trabajando con un layout de tres columnas,
+ esto se debe al hecho de que la segunda línea de nuestro template.*/
